@@ -1,0 +1,41 @@
+{
+    "age_at_stroke": {
+        "Description": "age of the participant at the time of their stroke",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "sex of the participant as reported by the participant",
+        "Levels": {
+            "M": "male",
+            "F": "female"
+        }
+    },
+    "Days_POS_MRI": {
+        "Description": "Days since participants stroke that the corresponding MRI was completed",
+        "Units": "Days"
+    },
+
+"WAB_days_POS_closest match": {
+        "Description": "Days since participants stroke that the WAB (Western Aphasia Battery-Revised) was collected matched most recently to their corresponding MRI scan",
+        "Units": "Days"
+    },
+
+"MRI_daysPOS_minus_WAB_daysPOS": {
+        "Description": "Days between their MRI to their most closely related WAB (Western Aphasia Battery-Revised)",
+        "Units": "Days"
+    },
+
+ "Aphasia_type_from_wab": {
+        "Description": "Aphasia type from the Western Aphasia Battery",
+        "Levels": {
+	"1": "Anomic",
+	"2": "Brocas",
+	"3": "Conduction",
+	"4": "Global",
+	"5": "Transcortical Motor",
+	"6": "Transcortical Sensory",
+	"7": "Wernickes",
+	"8": "Not Aphasic"
+        }
+    }
+}
